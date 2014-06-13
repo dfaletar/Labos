@@ -1,0 +1,133 @@
+#dataTable td{
+	padding:3px;
+}
+
+body{
+	width: 960px;
+	box-shadow:0 0 22px #111;
+	margin-left: 15%;
+}
+
+.sredina{
+	height: 550px;
+	background: #14786D;
+}
+.lijevo{
+	float: left;
+	position: relative;
+	padding-left: 150px;
+	padding-top: 150px;
+	background: #14786D;
+
+}
+
+.desno{
+	float: right;
+	position: relative;
+	padding-right: 20%;
+	padding-top: 110px;
+	background: #14786D;
+}
+.site-footer {
+  text-align: center;
+  height: 100px;
+  background: #14786D;
+  padding: 20px;
+}
+
+
+
+
+.ime{
+	position: relative;
+	float: right;
+	padding-right: 100px;
+	background: #14786D;
+}
+
+.logo{
+	position: relative;
+	float: left;
+	padding-left: 100px;
+	background: #14786D;
+}
+
+.moto{
+	margin-left:35px;;
+}
+
+.site-header{
+	height: 100px;
+	padding-top: 20px;
+	background: #14786D;
+}
+.navigation1{
+	width: 100%;
+	height: 800px;
+	
+}
+
+.main-navigation{
+	position: relative;
+	float: left;
+	display: block;
+	padding-top: 100px;
+	padding-left: 100px;
+	
+	
+
+}
+
+.main-navigation li{
+	width: 200px;
+	padding: 10px;
+	list-style-type:none;
+	text-decoration: none;
+	background: #7A0A12;
+	margin-top:2px;
+	border-radius: 8px;
+}
+
+
+
+ .sadrzaj{ 
+ 	position: relative;
+ 	float: left;
+	padding-left: 20px; 
+	padding-top: 120px;
+	padding-bottom: 120px;
+
+ }
+ 
+ .sadrzaj a{
+	background: #7A0A12;
+	border-radius: 8px;
+	background: #14786D;
+	padding:10px;
+	
+ }
+
+ a{
+ text-decoration: none;
+ color:black;
+ }
+
+
+
+.sadrzaj p:hover{
+	cursor: pointer;
+}
+
+#reklama {
+	width: 500px;
+	height: 400px;
+	background-color: silver;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 999;
+	text-align: center;
+	line-height: 100px;
+}

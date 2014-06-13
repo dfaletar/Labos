@@ -1,0 +1,44 @@
+/* --------------------------------------------- \\
+// Ovdje ima zmajeva. Bolje da ne dirate ništa.  \\
+// --------------------------------------------- */
+
+/* Širina kolumne */
+.column-1 { width: 60px; }
+.column-2 { width: 140px; }
+.column-3 { width: 220px; }
+.column-4 { width: 300px; }
+.column-5 { width: 380px; }
+.column-6 { width: 460px; }
+.column-7 { width: 540px; }
+.column-8 { width: 620px; }
+.column-9 { width: 700px; }
+.column-10 { width: 780px; }
+.column-11 { width: 860px; }
+.column-12 { width: 940px; }
+
+/* Pomak lijevo */
+.offset-05 { margin-left: 40px; }
+.offset-1 { margin-left: 80px; }
+.offset-2 { margin-left: 160px; }
+.offset-3 { margin-left: 240px; }
+.offset-4 { margin-left: 320px; }
+.offset-5 { margin-left: 400px; }
+.offset-6 { margin-left: 480px; }
+.offset-7 { margin-left: 560px; }
+.offset-8 { margin-left: 640px; }
+.offset-9 { margin-left: 720px; }
+.offset-10 { margin-left: 800px; }
+
+/* Temeljna klasa kolumne */
+.column {
+	margin: 0 10px 0 10px;
+	overflow: hidden;
+  float: left;
+}
+
+/* Redak */
+.row {
+	width: 960px;
+	margin: 0 auto;
+  overflow: hidden;
+}
